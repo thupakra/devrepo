@@ -1,5 +1,5 @@
 name: my first workflow
-on : Manual Trigger Example
+on: push
 jobs:
     first-job:
       runs on: ubuntu latest
