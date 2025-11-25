@@ -1,0 +1,13 @@
+name: 2nd files
+on: push
+jobs:
+  first-job:
+  runs on : ubuntu-latest
+  setps:
+   -name: welcome message
+    run: "echo hellod world"
+   -name: list files
+    run: ls
+   -name: Read teh README files
+    run: cat README.md
+    run: ls
